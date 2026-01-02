@@ -1,0 +1,63 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# Cache and temporary files
+*.log
+*.tmp
+*.cache
+.cache/
+*.pyc
+__pycache__/
+
+# Sensitive files (DO NOT COMMIT)
+*.key
+*.pem
+*.secret
+*.env
+*.token
+.ssh/
+.gnupg/
+
+# Personal gitconfig (use .gitconfig.example as template)
+# Uncomment the line below if you don't want to commit your personal gitconfig
+# .gitconfig
+
+# Application specific
+.viminfo
+.zsh_history
+.bash_history
+*.zwc
+*.zcompdump*
+
+# Local overrides
+*.local
+.local/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Package manager files
+node_modules/
+package-lock.json
+yarn.lock
+
+# Personal notes
+notes.txt
+TODO.txt
