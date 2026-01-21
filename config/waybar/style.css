@@ -15,6 +15,12 @@ window#waybar {
 #workspaces button.active {
     color: @foreground;
 }
+#waybar .module {
+    margin: 0 8px;        /* equal space between every module */
+    padding: 0 14px;      /* consistent inner spacing */
+    background-color: @background;
+    border-radius: 10px;
+}
 
 
 #workspaces {
